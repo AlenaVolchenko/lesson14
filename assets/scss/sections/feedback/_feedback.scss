@@ -1,0 +1,31 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.feedback {
+  background-color: $color-bg-secondary-2;
+  padding: 80px 0 84px;
+
+  &__wrapper {
+    display: flex;
+    width: min(100% - 40px, 1330px);
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    @include xl {
+      flex-direction: column;
+    }
+  }
+
+  &__ratings {
+    display: flex;
+    padding: 0 70px;
+    gap: 70px;
+    border-left: 1px solid black;
+
+    @include xl {
+      border-left: none;
+      padding: 20px 0;
+    }
+  }
+}

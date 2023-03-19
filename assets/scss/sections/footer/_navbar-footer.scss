@@ -1,0 +1,38 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.navbar-footer {
+  border-bottom: 1px solid black;
+  padding-bottom: 98px;
+  display: flex;
+
+  &__header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  &__items-primary {
+    padding-right: 70px;
+  }
+
+  &__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  &__item {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    padding-bottom: 15px;
+  }
+
+  &__items {
+    width: 170px;
+  }
+}

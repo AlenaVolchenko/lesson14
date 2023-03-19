@@ -1,0 +1,45 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.productivity-item {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  &__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.3333;
+    margin: 0 0 12px;
+    gap: 35px;
+  }
+
+  &__description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    width: 410px;
+    gap: 55px;
+  }
+
+  &__picture {
+    order: -1;
+  }
+
+  &__link {
+    font-size: 20px;
+  }
+
+  &__image-develop {
+    padding: 10px 0 55px;
+
+  }
+
+  &__image-manag {
+    padding-bottom: 30px;
+  }
+
+  &__image-tran {
+    padding: 10px 0 38px;
+  }
+}

@@ -1,0 +1,17 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+@use "mixins" as *;
+
+.time {
+  @include job-item(row-reverse);
+  margin-bottom: 250px;
+  margin-top: 250px;
+}
+
+.time__description {
+  width: 482px;
+}
+
+.time__title {
+  width: 380px;
+}

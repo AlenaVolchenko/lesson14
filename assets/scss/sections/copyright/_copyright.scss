@@ -1,0 +1,12 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.copyright {
+  padding: 47px 0 40px;
+  display: flex;
+
+  &__flex {
+    display: flex;
+
+  }
+}

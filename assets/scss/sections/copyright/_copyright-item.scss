@@ -1,0 +1,31 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.copyright-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+
+  &__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    max-width: 272px;
+    margin: 0;
+    min-width: 108px;
+  }
+
+  &__items {
+    display: flex;
+    gap: 14px;
+  }
+
+  &__description {
+    padding-right: 70px;
+
+    @include md {
+      padding: 0;
+    }
+  }
+
+}

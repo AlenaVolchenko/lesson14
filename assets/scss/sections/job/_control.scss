@@ -1,0 +1,11 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+@use "mixins" as *;
+
+.control {
+  @include job-item;
+}
+
+.control__description {
+  width: 500px;
+}

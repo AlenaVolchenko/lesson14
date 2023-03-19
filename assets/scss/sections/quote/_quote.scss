@@ -1,0 +1,26 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+
+
+.quote {
+  padding-top: 53px;
+  padding-bottom: 105px;
+  background-color: $color-bg-secondary-1 ;
+
+  &__content {
+    display: flex;
+    gap: 72px;
+
+    @include lg {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+  }
+
+  &__picture {
+    line-height: 0;
+    display: flex;
+    max-height: 310px;
+  }
+}

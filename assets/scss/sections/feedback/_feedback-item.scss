@@ -1,0 +1,26 @@
+@use "../../presets" as *;
+@use "../../mixins" as *;
+
+.feedback-item {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+  padding-right: 124px;
+
+  @include xl {
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+
+    @include xl {
+      flex: 0 1 856px;
+    }
+  }
+}
