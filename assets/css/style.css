@@ -742,6 +742,7 @@ h1 {
       flex-direction: column;
 }
 .quote-item__description {
+  margin: 0;
   padding-top: 10px;
 
   font-size: 30px;
